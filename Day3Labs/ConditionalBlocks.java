@@ -1,0 +1,18 @@
+public class ConditionalBlocks{
+	public static void main(String[] args){
+		boolean b=false;
+		boolean firstCondition = true;
+		boolean secondCondition = true;
+		
+		if(firstCondition){
+			System.out.println("inside the if-statements");
+			
+			if(secondCondition){
+				System.out.println("inside nested if-stmt");
+			}
+		}else{
+			System.out.println("inside of the else-statement");
+		}
+		System.out.println("outside of the if-statements");
+	}
+}
