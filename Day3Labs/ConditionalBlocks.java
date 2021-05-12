@@ -10,6 +10,8 @@ public class ConditionalBlocks{
 			if(secondCondition){
 				System.out.println("inside nested if-stmt");
 			}
+		}else if (secondCondition){
+			System.out.println(5);
 		}else{
 			System.out.println("inside of the else-statement");
 		}
